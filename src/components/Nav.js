@@ -1,8 +1,14 @@
 import styled from 'styled-components'
 
 const Nav = styled.div`
-    display: flex;
-    align-items: center;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 2000;
+    text-align: center;
+    width: 100%;
+    top:20px;
+    padding-left: 50px;
+    padding-right: 50px;
 `
 
 const Logo = styled.div`
@@ -10,7 +16,6 @@ const Logo = styled.div`
 `
 const Menu = styled.div`
     float: right;
-    margin-left: auto;
 `
 
 const MenuItem = styled.a`

@@ -1,3 +1,19 @@
-.SectionContainer {
-    box-sizing: border-box;
+
+.section{
+    width: 100%;
+    position:relative;
+}
+
+.moto-one{
+    background-image: url('./assets/bikeOne.svg');
+    background-position: center;
+    
+}
+.moto-two{
+    background-image: url('./assets/bikeTwo.svg');
+    background-position: center;
+}
+.moto-three{
+    background-image: url('./assets/bikeThree.svg');
+    background-position: center;
 }
